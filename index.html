@@ -11,49 +11,138 @@
 <body>
 
     <!-- Comienzo HEADER -->
-    <!-- Tener en cuenta que textos, imágenes
-    y algunos links todavía no están definidos -->
 
     <header>
-        <div class="navbar">
-            <nav>
-                <ul>
-                    <li><a href="pages/about.html">Sobre mí</a></li>
-                    <li><a href="pages/work.html">Trabajos</a></li>
-                    <li><a href="pages/projects.html">Proyectos</a></li>
-                </ul>
-            </nav>
-            <h4><a href="">Maxi Gayo</a></h4>
-            <button><a href="./pages/contact.html">Charlemos</a></button>
-        </div>
+        <h3>Maxi Gayo</h3>
+        <nav class="navbar">
+            <ul>
+                <li><a href="./pages/about.html">Sobre mí</a></li>
+                <li><a href="./pages/work.html">Trabajos</a></li>
+                <li><a href="./pages/projects.html">Proyectos</a></li>
+            </ul>
+        </nav>
+        <button class="color-acento-1"><a href="./pages/contact.html">Charlemos</a></button>
     </header>
 
     <!-- Comienzo MAIN -->
-    <!-- La idea es que la Home contenga eventualemnte
-        un resumen de todas las secciones, por ende
-        sería un poco más larga -->
 
     <main>
-        <section>
-            <h1>Diseñador Gráfico</h1>
-            <h1>y Digital</h1>
-            <p>Apasionado por las <br>posibilidades de diseño <br>de todas las cosas.</p>
+        <section class="apertura">
+            <div>
+                <h1>Diseñador Gráfico</h1>
+                <p>Apasionado por las <br>posibilidades
+                    de diseño <br>de todas las cosas.</p>
+            </div>
+            <img src="./assets/img/img_01.jpg" alt="">
         </section>
-        <img src="assets/img/img-placeholder.png" alt="">
+
+    <!-- SECCIÓN TRABAJOS -->
+
+        <section class="trabajos">
+            
+            <div class="home-trabajos-titulo">
+                <h2>TRABAJOS</h2>
+                <h2>TRABAJOS</h2>
+                <h2>TRABAJOS</h2>
+            </div>
+
+            <article class="home-cliente-der">
+                <div class="home-cliente-txt color-acento-1">
+                    <div class="home-cliente-etiqueta">
+                        <span class="circulo"></span>
+                        <p>Branding</p>
+                    </div>
+                    <h3>BOSCH ARGENTINA</h3>
+                </div>
+                <img src="./assets/img/img_02.jpg" alt="">
+            </article>
+
+            <article class="home-cliente-izq">
+                <img src="./assets/img/img_02.jpg" alt="">
+                <div class="home-cliente-txt color-acento-2">
+                    <div class="home-cliente-etiqueta">
+                        <span class="cuadrado"></span>
+                        <p>Editorial</p>
+                    </div>
+                    <h3>UNIVERSIDAD DEL SALVADOR</h3>
+                </div>
+            </article>
+
+            <article class="home-cliente-der">
+                <div class="home-cliente-txt color-acento-3">
+                    <div class="home-cliente-etiqueta">
+                        <span class="triangulo"></span>
+                        <p>Branding</p>
+                    </div>
+                    <h3>COOPERATIVA CAMBALACHE</h3>
+                </div>
+                <img src="./assets/img/img_02.jpg" alt="">
+            </article>
+
+            <button><a href="./pages/work.html">Ver Trabajos</a></button>
+
+        </section>
+
+    <!-- SECCION PROYECTOS PERSONALES -->
+
+        <section class="proyectos">
+
+            <h2>PROYECTOS PERSONALES</h2>
+
+            <div class="contenedor-proyectos">
+
+                <article class="home-proyecto">
+                    <img src="./assets/img/img_03.jpg" alt="">
+                    <div class="home-proyecto-txt color-acento-2">
+                        <div class="home-proyecto-etiqueta">
+                            <span class="circulo"></span>
+                            <p>Ilustración</p>
+                        </div>
+                        <h3>CALENDARIO ILUSTRADO</h3>
+                    </div>
+                </article>
+
+                <article class="home-proyecto">
+                    <img src="./assets/img/img_03.jpg" alt="">
+                    <div class="home-proyecto-txt color-acento-2">
+                        <div class="home-proyecto-etiqueta">
+                            <span class="circulo"></span>
+                            <p>Música</p>
+                        </div>
+                        <h3>RADIO CORNALITOS</h3>
+                    </div>
+                </article>
+
+                <article class="home-proyecto">
+                    <img src="./assets/img/img_03.jpg" alt="">
+                    <div class="home-proyecto-txt color-acento-2">
+                        <div class="home-proyecto-etiqueta">
+                            <span class="circulo"></span>
+                            <p>Creative <br>Coding</p>
+                        </div>
+                        <h3>VISUALES <br>EN HYDRA</h3>
+                    </div>
+                </article>
+
+            </div>
+            <button><a href="./pages/projects.html">Ver Proyectos</a></button>
+        </section>
     </main>
 
-    <!-- Comienzo FOOTER -->
+<!-- Comienzo FOOTER -->
 
     <footer>
-        <div>
-            <p class="copyright">©2024 Maxi Gayo</p>
+        <div class="home-foot-frelance">
+            <p class="p-chico">©2024 Maxi Gayo</p>
             <ul>
-                <li><p>Disponible para proyectos freelance y colaboraciones.</p></li>
+                <li>
+                    <p>Disponible para proyectos freelance y colaboraciones.</p>
+                </li>
                 <li><a href="mailto:maxgayo@gmail.com">maxgayo@gmail.com</a></li>
             </ul>
         </div>
-        <div>
-            <p>Encontrame en</p>
+        <div class="home-foot-redes">
+            <p class="p-chico">Encontrame en</p>
             <ul>
                 <li><a href="https://www.behance.net/maxigayo">Behance</a></li>
                 <li><a href="https://www.linkedin.com">Linked in</a></li>
