@@ -45,8 +45,13 @@ header {
     margin-bottom: 2rem;
 }
 
-header h3 {
+header a h3 {
     font-size: 1.125rem;
+    color: #1E1E1E;
+}
+
+header a h3:hover {
+    color: #00FA9A;
 }
 
 .navbar ul {
